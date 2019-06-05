@@ -11,7 +11,7 @@
 
   <title>
     
-      Home Page &middot; Yash Jain
+      HPCC Systems Internship : Fourth Week Updates!! &middot; Yash Jain
     
   </title>
 
@@ -35,21 +35,26 @@
 </head>
 
 
-  <body class="index home">
+  <body class="post">
 
     <div id="sidebar">
   <header>
-    <h1 class="site-title">
+    <div class="site-title">
       <a href="/">
+        
+          <span class="back-arrow icon"><svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+  <path d="M0 0h24v24H0z" fill="none"/>
+  <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/>
+</svg></span>
         
         Yash Jain
       </a>
-    </h1>
+    </div>
     <p class="lead">My personal blog</p>
   </header>
   <nav id="sidebar-nav-links">
   
-    <a class="home-link  active"
+    <a class="home-link "
         href="/">Home</a>
   
   
@@ -189,28 +194,19 @@
 </div>
 
     <main class="container">
-      <div class="content">
-  
-
-
-  
-
-  
-  <article class="post-body">
-    <h2 class="post-title">
-      <a href="/2019/05/31/hpcc-fourth-week.html">
-        HPCC Systems Internship : Fourth Week Updates!!
-      </a>
-    </h2>
-    <div class="post-meta">
+      <header>
+  <h1 class="post-title">HPCC Systems Internship : Fourth Week Updates!!</h1>
+</header>
+<div class="content">
+  <div class="post-meta">
   <span class="post-date">31 May 2019</span>
   <span class="post-categories">
     
   </span>
 </div>
 
-    
-      <p>Hi there,</p>
+  <div class="post-body">
+    <p>Hi there,</p>
 
 <p>As i had mentioned before, I worked on the design part ths week. The clustered HPCC Systems platform has multiple components such as Thor for distributed storage, Roxie for online data processing, Sasha for backups, Dali for File Server and Authorization. These components need to interact with each other for the platform to function as expected. This is what adds to the complexity.</p>
 
@@ -224,208 +220,89 @@
 
     
 
-    
-      
-      
-      
 
-      
-    
-  </article>
+
+<div class="post-tags">
   
-  <article class="post-body">
-    <h2 class="post-title">
-      <a href="/2019/05/24/hpcc-third-week.html">
-        HPCC Systems Internship : Second Week Updates!!
-      </a>
-    </h2>
-    <div class="post-meta">
-  <span class="post-date">24 May 2019</span>
-  <span class="post-categories">
     
-  </span>
+    <a href="/tags.html#internship">
+    
+      <span class="icon">
+        <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16z"/>
+</svg>
+      </span>&nbsp;<span class="tag-name">internship</span>
+    </a>
+  
+    
+    <a href="/tags.html#hpcc">
+    
+      <span class="icon">
+        <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16z"/>
+</svg>
+      </span>&nbsp;<span class="tag-name">hpcc</span>
+    </a>
+  
+</div>
+  </div>
+
+  <!-- 
+  <section class="comments">
+    <h2>Comments</h2>
+    
+  <p>
+    You are seeing this because your Disqus shortname is not properly set. To
+    configure Disqus, you should edit your <code>_config.yml</code> to include
+    either a <code>disqus.shortname</code> variable.
+  </p>
+
+  <p>
+    If you do not wish to use Disqus, override the
+    <code>comments.html</code> partial for this theme.
+  </p>
+
+
+  </section>
+ -->
+  <section class="related">
+  <h2>Related Posts</h2>
+  <ul class="posts-list">
+    
+      <li>
+        <h3>
+          <a href="/2019/05/24/hpcc-third-week.html">
+            HPCC Systems Internship : Second Week Updates!!
+            <small>24 May 2019</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2019/05/17/hpcc-second-week.html">
+            HPCC Systems Internship : Second Week Updates!!
+            <small>17 May 2019</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2019/05/10/hpcc-internship-first-week.html">
+            HPCC Internship : First Week Over!!
+            <small>10 May 2019</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</section>
+
 </div>
 
-    
-      <p>Hi there,</p>
-
-<p>This is a fun week. I wrote finally started writing code. I could get the tests to work correctly. The charm test can now check if the HPCC Systems standalone charm works fine. Writing the tests was a bit difficult for me as Juju does not really provide an efficient debugging method. However, I finally, could get the tests to run.</p>
-
-<p>For those who may need help debugging their charms, here are a few commands which might help you debug the charm. The commands assume you are hacking on the HPCC charm but you may use them for other by making appropriate changes.</p>
-
-<ol>
-  <li>To see changes to the controller in real time, use</li>
-</ol>
-
-<p><code class="highlighter-rouge">watch -c juju status --color</code></p>
-
-<ol>
-  <li>To debug the hooks, you can use,</li>
-</ol>
-
-<p><code class="highlighter-rouge">juju debug-hook hpcc-platform/</code></p>
-
-<p><code class="highlighter-rouge">juju debug-hook hpcc-platform/ &lt;hook name&gt;</code></p>
-
-<p>This would only open a session for the specified hook. If the hook name is not 
-specified, all hooks are debugged. Once, debugging is done, you must exit the 
-corresponding terminal pane for juju to continue executing.</p>
-
-<p>Juju would retry running a hook automatically for a fixed number of times. If you need the hook to run manually, you can use</p>
-
-<p><code class="highlighter-rouge">juju resolved hpcc-platform/1</code></p>
-
-<p>However, his only works if the hook failed in execution.</p>
-
-<ol>
-  <li>
-    <p>To build, you can use the build.sh file provided.</p>
-  </li>
-  <li>
-    <p>To run the tests, goto the built charms location (by default, build/builds/hpcc-platform) and run the test using</p>
-  </li>
-</ol>
-
-<p><code class="highlighter-rouge">python3 tests/10-deploy</code></p>
-
-<p>You may need to adjust the timeouts in the tests if necessary.</p>
-
-<ol>
-  <li>To test the stop hook, simply run</li>
-</ol>
-
-<p><code class="highlighter-rouge">juju remove-application hpcc-platform</code></p>
-
-<ol>
-  <li>To see the logs from your instance, use</li>
-</ol>
-
-<p><code class="highlighter-rouge">juju debug-log --include hpcc-platform --level DEBUG --replay</code></p>
-
-<p>All things said, the charm can now successfully start, stop and respond to config changes.
-I will be spending the next two weeks to get the design of the clustered charm ready. More on that in the coming weeks.</p>
-
-<p>Yash Jain</p>
-
-    
-
-    
-      
-      
-      
-
-      
-    
-  </article>
-  
-  <article class="post-body">
-    <h2 class="post-title">
-      <a href="/2019/05/17/hpcc-second-week.html">
-        HPCC Systems Internship : Second Week Updates!!
-      </a>
-    </h2>
-    <div class="post-meta">
-  <span class="post-date">17 May 2019</span>
-  <span class="post-categories">
-    
-  </span>
-</div>
-
-    
-      <p>Hi there,</p>
-
-<p>This week most of my time was spent in reading the documentation and spending time exploring juju and the charm helpers framework.I also created a simple demo charm. I don’t plan on pushing it to github as it doesn’t really do much.</p>
-
-<p>Ming and I during our weekly meeting have discussed the steps to be taken for the coming weeks. He has suggested I spend time on the hppc-charm repo. Hopefully, by the end of week 3, I should have upstreamed 1-2 PR’s. I plan on writing some tests for the existing charms this week. I will also work adding support for some of the items in config.yaml. ( I haven’t decided which ones but something like checksum support would be nice.)</p>
-
-<p>I am keeping it short this week. Thanks for reading this.</p>
-
-<p>Yash Jain</p>
-
-    
-
-    
-      
-      
-      
-
-      
-    
-  </article>
-  
-  <article class="post-body">
-    <h2 class="post-title">
-      <a href="/2019/05/10/hpcc-internship-first-week.html">
-        HPCC Internship : First Week Over!!
-      </a>
-    </h2>
-    <div class="post-meta">
-  <span class="post-date">10 May 2019</span>
-  <span class="post-categories">
-    
-  </span>
-</div>
-
-    
-      <p>Hi there.</p>
-
-<p>I just finished the first week of my internship at <a href="https://hpccsystems.com/">HPCC Systems</a>. Those who don’t know about the company, here’s a brief intro from their <a href="https://hpccsystems.com/about#Platform">about page</a></p>
-<blockquote>
-  <p>The HPCC Systems platform is a set of easy-to-use software features, enabling developers and data scientists to process and analyze data at any scale.</p>
-</blockquote>
-
-<p>I am working on making the deployment easier. I will be using Juju cluster deployment framework to achieve this. I am being mentored by <a href="https://www.linkedin.com/in/xiaoming-wang-749aaa99">Xiaoming Wang</a> and <a href="https://www.linkedin.com/in/kevin-wang-16550a5">Kevin Wang</a>.</p>
-
-<p>The internship has got off to a great start. I have been going through the docs and understanding the HPCC Systems platform in general. The platform is quite complex, with a lot of moving parts interacting amongst themselves, so I need to understand this before I really begin working. I will be writing more on this in the coming weeks.</p>
-
-<p>But for today, the internship is really coming on well. LexisNexis Risk Solutions is an excellent employer and most importantly I would like to give a shout out to Xiaoming and Kevin for being wonderful mentors. I although am new here and don’t know much but these guys have been at the forefront to help me out whenever I need. So yes, thanks a lot Ming and Kevin. Looking forward to working with you.</p>
-
-<p>That’s it for today. Thanks for reading this.
-Yash</p>
-
-    
-
-    
-      
-      
-      
-
-      
-    
-  </article>
-  
-  <article class="post-body">
-    <h2 class="post-title">
-      <a href="/2017/02/20/hello-hydeout.html">
-        First Blog!!
-      </a>
-    </h2>
-    <div class="post-meta">
-  <span class="post-date">20 Feb 2017</span>
-  <span class="post-categories">
-    
-  </span>
-</div>
-
-    
-      <p>Finally my first blog post!! Thanks to Andrew Fong for this awesone hydeout theme.</p>
-
-
-    
-
-    
-      
-      
-      
-
-      
-    
-  </article>
-  
-
-  
-
-</div>
     </main>
 
     <!-- Optional footer content -->
